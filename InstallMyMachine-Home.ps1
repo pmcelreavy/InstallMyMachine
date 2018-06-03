@@ -38,7 +38,8 @@ $Packages = 'GoogleChrome',`
             'paint.net',`
 			'f.lux',`
 			'wiztree',`
-			'powerpanel-personal'
+			'powerpanel-personal',
+			'displayfusion'
 			
 
 #--- Install Packages ---

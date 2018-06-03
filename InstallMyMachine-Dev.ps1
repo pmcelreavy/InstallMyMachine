@@ -31,7 +31,8 @@ $Packages = 'git',`
 			'gitkraken',`
 			'postman',`
 			'wiztree',`
-			'far'
+			'far',
+			'displayfusion'
 			
 
 #--- Install Packages ---
