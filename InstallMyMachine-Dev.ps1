@@ -2,7 +2,7 @@
 # Author: Patrick McElreavy
 # Based off https://github.com/laurentkempe/Cacao
 
-Disable-UAC
+#Disable-UAC
 
 #--- Windows Features ---
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
@@ -19,7 +19,7 @@ choco install -y Microsoft-Windows-Subsystem-Linux -source windowsfeatures
 #--- Define Packages to Install ---
 $Packages = 'git',`
             'poshgit',`
-            'visualstudiocode',`
+            'vscode',`
             'notepadplusplus',`
             'nodejs',`
             'FiraCode',`
@@ -27,18 +27,18 @@ $Packages = 'git',`
             'GoogleChrome',`
             'paint.net',`
             'rapidee',`
-			'f.lux',`
-			'gitkraken',`
-			'postman',`
-			'wiztree',`
-			'far',
-			'displayfusion'
+	    'f.lux',`
+	    'gitkraken',`
+	    'postman',`
+	    'wiztree',`
+	    'far',
+	    'displayfusion'
 			
 
 #--- Install Packages ---
 ForEach ($PackageName in $Packages)
 {choco install $PackageName -y}
 
-Enable-UAC
-Enable-MicrosoftUpdate
-Install-WindowsUpdate -acceptEula
+#Enable-UAC
+#Enable-MicrosoftUpdate
+#Install-WindowsUpdate -acceptEula
