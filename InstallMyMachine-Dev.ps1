@@ -49,7 +49,7 @@ $Features = `
 	'IIS-HttpCompressionStatic',`
 	'IIS-ManagementConsole',`
 	'NetFx4-AdvSrvs',`
-	'NetFx4Extended-ASPNET45',
+	'NetFx4Extended-ASPNET45'
 
 #--- Install Features ---
 ForEach ($FeatureName in $Features)
