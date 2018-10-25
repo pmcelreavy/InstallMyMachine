@@ -17,22 +17,27 @@ choco install -y Microsoft-Hyper-V-All -source windowsFeatures
 choco install -y Microsoft-Windows-Subsystem-Linux -source windowsfeatures
 
 #--- Define Packages to Install ---
-$Packages = 'git',`
-            'poshgit',`
-            'vscode',`
-            'notepadplusplus',`
-            'nodejs',`
-            'FiraCode',`
-            '7zip',`
-            'GoogleChrome',`
-            'paint.net',`
-            'rapidee',`
-	    'f.lux',`
-	    'gitkraken',`
-	    'postman',`
-	    'wiztree',`
-	    'far',
-	    'displayfusion'
+$Packages = `
+	'git',`
+	'poshgit',`
+	'vscode',`
+	'notepadplusplus',`
+	'nodejs',`
+	'FiraCode',`
+	'7zip',`
+	'GoogleChrome',`
+	'paint.net',`
+	'rapidee',`
+	'f.lux',`
+	'gitkraken',`
+	'postman',`
+	'wiztree',`
+	'far',`
+	'displayfusion',`
+	'conemu',`
+	'procexp',`
+	'visualstudio2017professional',`
+	'sql-server-management-studio'
 			
 
 #--- Install Packages ---
