@@ -91,3 +91,5 @@ ForEach ($PackageName in $Packages)
 #Enable-UAC
 #Enable-MicrosoftUpdate
 #Install-WindowsUpdate -acceptEula
+
+refreshenv
