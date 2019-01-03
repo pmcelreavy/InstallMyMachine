@@ -6,6 +6,9 @@
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 refreshenv
 
+# Install PowerShell Modules
+Install-Module -Name PSColor
+
 #Disable-UAC
 
 #--- Windows Features ---
