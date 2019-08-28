@@ -65,6 +65,8 @@ ForEach ($FeatureName in $Features)
 
 #--- Define Packages to Install ---
 $Packages = `
+        'dotnetcore-sdk',`
+	'dotnet4.7.2',`
 	'git',`
 	'poshgit',`
 	'vscode',`
@@ -83,7 +85,7 @@ $Packages = `
 	'displayfusion',`
 	'conemu',`
 	'procexp',`
-	'visualstudio2017professional',`
+	'visualstudio2019professional',`
 	'sql-server-management-studio'
 			
 
