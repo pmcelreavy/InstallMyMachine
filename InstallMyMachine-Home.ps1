@@ -42,8 +42,9 @@ $Packages = `
     	'paint.net',`
 	'f.lux',`
 	'wiztree',`
-	'powerpanel-personal',
-	'displayfusion'
+	'powerpanel-personal',`
+	'displayfusion',`
+	'4k-video-downloader'
 
 
 #--- Install Packages ---
