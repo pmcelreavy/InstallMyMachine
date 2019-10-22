@@ -48,8 +48,9 @@ $Packages = `
 
 
 #--- Install Packages ---
-ForEach ($PackageName in $Packages)
-{choco install $PackageName -y}
+ForEach ($PackageName in $Packages) {
+  choco install $PackageName -y
+}
 
 Enable-UAC
 Enable-MicrosoftUpdate
