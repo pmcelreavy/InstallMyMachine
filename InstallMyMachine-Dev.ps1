@@ -67,6 +67,7 @@ ForEach ($FeatureName in $Features)
 $Packages = `
         'dotnetcore-sdk',`
 	'dotnet4.7.2',`
+	'dotnetfx',`
 	'git',`
 	'poshgit',`
 	'vscode',`
