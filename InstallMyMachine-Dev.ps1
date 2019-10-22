@@ -59,8 +59,9 @@ $Features = `
 	'NetFx4Extended-ASPNET45'
 
 #--- Install Features ---
-ForEach ($FeatureName in $Features)
-{choco install -y $FeatureName -source windowsfeatures}
+ForEach ($FeatureName in $Features) {
+  choco install -y $FeatureName -source windowsfeatures
+}
 
 
 #--- Define Packages to Install ---
@@ -91,8 +92,9 @@ $Packages = `
 			
 
 #--- Install Packages ---
-ForEach ($PackageName in $Packages)
-{choco install $PackageName -y}
+ForEach ($PackageName in $Packages) {
+  choco install $PackageName -y
+}
 
 #Enable-UAC
 #Enable-MicrosoftUpdate
