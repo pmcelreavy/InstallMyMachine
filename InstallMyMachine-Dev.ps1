@@ -69,6 +69,7 @@ $Packages = `
         'dotnetcore-sdk',`
 	'dotnet4.7.2',`
 	'dotnetfx',`
+	'dotnetcore-windowshosting',`
 	'git',`
 	'poshgit',`
 	'vscode',`
