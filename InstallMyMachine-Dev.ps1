@@ -66,8 +66,7 @@ ForEach ($FeatureName in $Features) {
 
 #--- Define Packages to Install ---
 $Packages = `
-        'dotnetcore-sdk',`
-	'dotnet4.7.2',`
+        'dotnet-sdk',`
 	'dotnetfx',`
 	'dotnetcore-windowshosting',`
 	'git',`
