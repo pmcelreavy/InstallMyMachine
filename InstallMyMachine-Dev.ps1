@@ -71,10 +71,12 @@ $Packages = `
 	'dotnetcore-windowshosting',`
 	'git',`
 	'poshgit',`
+	'oh-my-posh',`
 	'vscode',`
 	'notepadplusplus',`
 	'nodejs',`
 	'FiraCode',`
+	'FiraCodeNF',`
 	'7zip',`
 	'GoogleChrome',`
 	'paint.net',`
@@ -88,7 +90,8 @@ $Packages = `
 	'conemu',`
 	'procexp',`
 	'visualstudio2019professional',`
-	'sql-server-management-studio'
+	'sql-server-management-studio',`
+	'powershell-core'
 			
 
 #--- Install Packages ---
