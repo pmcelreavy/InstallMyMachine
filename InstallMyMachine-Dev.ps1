@@ -77,7 +77,6 @@ $Packages = `
 	'vscode',`
 	'notepadplusplus',`
 	'nodejs',`
-	'FiraCode',`
 	'FiraCodeNF',`
 	'7zip',`
 	'GoogleChrome',`
