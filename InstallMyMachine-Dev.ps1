@@ -68,9 +68,8 @@ ForEach ($FeatureName in $Features) {
 $Packages = `
         'dotnet-sdk',`
 	'dotnetfx',`
-	'dotnet-windowshosting',`
 	'netfx-4.8-devpack',`
-	'dotnetcore-windowshosting',`
+	'dotnet-6.0-windowshosting',`
 	'git',`
 	'poshgit',`
 	'oh-my-posh',`
