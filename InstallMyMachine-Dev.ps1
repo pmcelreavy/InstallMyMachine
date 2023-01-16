@@ -75,7 +75,7 @@ $Packages = `
 	'oh-my-posh',`
 	'vscode',`
 	'notepadplusplus',`
-	'nodejs',`
+	'nodejs-lts',`
 	'FiraCodeNF',`
 	'7zip',`
 	'GoogleChrome',`
