@@ -91,7 +91,9 @@ $Packages = `
 	'procexp',`
 	'visualstudio2022enterprise',`
 	'sql-server-management-studio',`
-	'powershell-core'
+	'powershell-core',`
+	'linqpad',`
+	'powertoys'
 			
 
 #--- Install Packages ---
