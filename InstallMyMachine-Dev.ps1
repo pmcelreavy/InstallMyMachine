@@ -89,7 +89,7 @@ $Packages = `
 	'displayfusion',`
 	'conemu',`
 	'procexp',`
-	'visualstudio2022enterprise',`
+	'visualstudio2022professional',`
 	'sql-server-management-studio',`
 	'powershell-core',`
 	'linqpad',`
