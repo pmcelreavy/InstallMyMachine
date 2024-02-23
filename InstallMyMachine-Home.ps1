@@ -22,6 +22,7 @@ choco install -y Microsoft-Windows-Subsystem-Linux -source windowsfeatures
 #--- Define Packages to Install ---
 $Packages = `
 	'GoogleChrome',`
+ 	'brave',`
 	'7zip',`
 	'etcher',`
 	'far',`
@@ -36,6 +37,7 @@ $Packages = `
 	'mkvtoolnix',`
 	'putty',`
 	'renamer',`
+ 	'rapidee',`
 	'teamviewer',`
 	'trillian',`
 	'vlc'`
@@ -44,7 +46,11 @@ $Packages = `
 	'wiztree',`
 	'powerpanel-personal',`
 	'displayfusion',`
-	'4k-video-downloader'
+	'4k-video-downloader',`
+        'zoxide',`
+	'fzf',`
+ 	'discord',`
+  	'powershell-core'
 
 
 #--- Install Packages ---
