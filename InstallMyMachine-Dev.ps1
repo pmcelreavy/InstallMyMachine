@@ -66,34 +66,37 @@ ForEach ($FeatureName in $Features) {
 
 #--- Define Packages to Install ---
 $Packages = `
-        'dotnet-sdk',`
-	'dotnetfx',`
-	'netfx-4.8-devpack',`
-	'dotnet-6.0-windowshosting',`
-	'git',`
-	'poshgit',`
-	'oh-my-posh',`
-	'vscode',`
-	'notepadplusplus',`
-	'nodejs-lts',`
-	'FiraCodeNF',`
 	'7zip',`
-	'GoogleChrome',`
-	'paint.net',`
-	'rapidee',`
-	'f.lux',`
-	'gitkraken',`
-	'postman',`
-	'wiztree',`
-	'far',`
-	'displayfusion',`
 	'conemu',`
-	'procexp',`
-	'visualstudio2022professional',`
-	'sql-server-management-studio',`
-	'powershell-core',`
+	'displayfusion',`
+        'dotnet-8.0-sdk',`
+	'dotnet-desktopruntime',`
+	'dotnet-sdk',`        
+	'dotnetfx',`
+	'FiraCodeNF',`
+        'fzf',`
+	'git',`
+	'gitkraken',`
+	'GoogleChrome',`
+        'jabra-direct',`
 	'linqpad',`
-	'powertoys'
+        'logioptionsplus',`
+	'netfx-4.8-devpack',`
+	'nodejs-lts',`
+	'notepadplusplus',`
+	'oh-my-posh',`
+	'paint.net',`
+	'poshgit',`
+	'postman',`
+	'powershell-core',`
+	'powertoys',`
+	'procexp',`
+	'rapidee',`
+	'sql-server-management-studio',`
+	'visualstudio2022professional',`
+	'vscode',`
+	'wiztree',`
+        'zoxide',`
 			
 
 #--- Install Packages ---
