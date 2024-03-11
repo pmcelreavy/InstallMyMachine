@@ -96,7 +96,7 @@ $Packages = `
 	'visualstudio2022professional',`
 	'vscode',`
 	'wiztree',`
-        'zoxide',`
+        'zoxide'
 			
 
 #--- Install Packages ---
