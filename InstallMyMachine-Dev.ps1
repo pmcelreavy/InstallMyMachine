@@ -71,7 +71,8 @@ $Packages = `
 	'displayfusion',`
         'dotnet-8.0-sdk',`
 	'dotnet-desktopruntime',`
-	'dotnet-sdk',`        
+	'dotnet-sdk',`
+        'dotnet-aspnetcoremodule-v2',`
 	'dotnetfx',`
 	'FiraCodeNF',`
         'fzf',`
