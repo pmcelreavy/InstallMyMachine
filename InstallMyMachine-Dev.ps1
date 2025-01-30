@@ -68,8 +68,7 @@ ForEach ($FeatureName in $Features) {
 $Packages = `
 	'7zip',`
 	'conemu',`
-	'displayfusion',`
-        'dotnet-8.0-sdk',`
+        'dotnet-9.0-sdk',`
 	'dotnet-desktopruntime',`
 	'dotnet-sdk',`
         'dotnet-aspnetcoremodule-v2',`
@@ -82,8 +81,8 @@ $Packages = `
         'jabra-direct',`
 	'linqpad',`
         'logioptionsplus',`
-	'netfx-4.8-devpack',`
-	'nodejs-lts',`
+	'netfx-4.8.1-devpack',`
+	'nodejs',`
 	'notepadplusplus',`
 	'oh-my-posh',`
 	'paint.net',`
